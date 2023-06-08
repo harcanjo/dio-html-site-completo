@@ -1,0 +1,60 @@
+:root {
+  --primary-color: #0077be; /* blue */
+  --secondary-color: #4caf50; /* green */
+  --tertiary-color: #ffffff; /* white */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: var(--tertiary-color);
+}
+
+#services a {
+  color: #0077be; /* blue */
+}
+
+html, body {
+    margin: 0;
+}
+body {
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: var(--secondary-color);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: var(--secondary-color);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: var(--primary-color);
+    min-height: 150px;
+}
+.content {
+    background-color: var(--tertiary-color);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: var(--primary-color);
+    min-height: 150px;
+}
